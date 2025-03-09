@@ -1,0 +1,25 @@
+{
+  "name": "blocksjs",
+  "version": "0.0.1",
+  "description": "Lightweight React-like framework using vanilla JS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnicallyWeb3/BlocksJS.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Framework",
+    "React"
+  ],
+  "author": "TechnicallyWeb3",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TechnicallyWeb3/BlocksJS/issues"
+  },
+  "homepage": "https://github.com/TechnicallyWeb3/BlocksJS#readme"
+}

@@ -17,7 +17,7 @@ export const App = () => {
     return `
         <div>
             <h1>Hello BlockJS</h1>
-            ${Button({label:label, onClick:handleClick})} //, children=null)} to add optional child components
+            ${Button({label:label, onClick:handleClick})} <!--, children=null)} to add optional child components-->
             ${Card({title:title, description:description})}
         <div>
     `;
