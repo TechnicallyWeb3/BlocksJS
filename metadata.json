@@ -1,0 +1,6 @@
+{
+    "title": "Metadata",
+    "description": "This data will be dynamically loaded into the head of the index.html file. We could use package.json to store this data since there are some common fields in package.json.",
+    "keywords": ["metadata", "markdown", "json", "documentation", "content management"],
+    "author": "John Doe"
+}
