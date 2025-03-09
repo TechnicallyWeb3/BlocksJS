@@ -1,6 +1,7 @@
 // this is the main app.js file. It is used to load the pages and components, manage global state, and site metadata.
 import { Button } from "./components/button.js";
 import { Card } from "./components/card.js";
+import { Counter } from "./components/counter.js";
 
 export const App = () => {
 
@@ -17,6 +18,7 @@ export const App = () => {
     return `
         <div>
             <h1>Hello BlockJS</h1>
+            ${Counter()}
             ${Button({label:label, onClick:handleClick})} <!--, children=null)} to add optional child components-->
             ${Card({title:title, description:description})}
         <div>
